@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="wrapper__superior">
+        <header class="cabecalho">
+            <p>Gean Antunes</p>
+            <nav class="cabecalho__links"> 
+                <a href="https://github.com/gean987" target="_blank"><img src="./assets/Imagens/github.png" alt="github img"></a>
+            </nav>
+        </header>
+        <main class="perfil">
+            <img src="./assets/Imagens/perfil.png" alt="fotoGean" class="perfil__img">
+            <div class="perfil__apresentacao">
+                <div>    
+                    <h1>
+                    Olá, meu nome é <span class="perfil__nome">Gean Vargas Antunes</span> <h1>e estou aprendendo Front-End.</h1>
+                    </h1>
+                </div>
+                <div>
+                    <p>
+                        Formado em Analise e Desenvolvimento de sistemas
+                    </p> 
+                    <p>
+                        fiquei alguns anos sem desenvolver nada, retomei os estudos e atualmente participando do projeto Oracle ONE na Alura.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <div class="borda">
+        </div>
+        <section class="skills">
+            <h2>
+                Skills
+            </h2>
+            <div class="skills__imagens">
+                <img src="./assets/Imagens/html.png" alt="html logo">
+                <img src="./assets/Imagens/css.png" alt="css logo">
+                <img src="./assets/Imagens/js.png" alt="Javascript logo">
+            </div>    
+        </section>
+    </div>
+    <div class="wrapper__inferior">
+         <div class="borda"></div>
+            <h2 class="titulo-h2">Projetos :</h2>
+                <section class="projetos">
+                    <div class="projetos__projeto">
+                        <img src="./assets/Imagens/Decodificador.png" alt="decodificador alura">
+                        <div class="projetos__projeto__descricao">
+                            <h3>
+                                Decodificador
+                            </h3>
+                            <div class="projetos__projeto__descricao__codigos">
+                                <span>HTML</span> 
+                                <span>CSS</span> 
+                                <span>Javascript</span>
+                            </div>
+                            <div class="projetos__projeto__descricao__links">
+                                <a href="#">Ver Projeto</a>
+                                <a href="https://github.com/gean987/Desafio-Decodificador" target="_blank">Ver Codigo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projetos__projeto">
+                        <img src="./assets/Imagens/AluraGeek.png" alt="AluraGeek">
+                        <div class="projetos__projeto__descricao">
+                            <h3>
+                                AluraGeek
+                            </h3>
+                            <div class="projetos__projeto__descricao__codigos">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Javascript</span>
+                            </div>
+                            <div class="projetos__projeto__descricao__links">
+                                <a href="https://gean987.github.io/AluraGeek/" target="_blank">Ver projeto</a>
+                                <a href="https://github.com/gean987/AluraGeek" target="_blank">Ver Codigo</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="contato">
+                    <div>
+                    <h2>Contato</h2>
+                    <p>caso queira entrar em contato comigo</p>
+                    </div>
+                    <form action="#" class="contato__formulario">
+                        <fieldset>
+                            <label for="nome">Nome </label>
+                            <input type="text" id="nome" minlength="3" required>
+                                <span class="msg__erro">
+                                </span>
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">Email</label>
+                            <input type="email" autocomplete="off" id="email" minlength="4" required>
+                                <span class="msg__erro">
+                                </span>
+                        </fieldset>
+                        <fieldset>
+                            <textarea name="texto" id="texto_msg" cols="30" rows="1" placeholder="Mensagem"></textarea>
+                        </fieldset>
+                        <button type="submit" id="btnEnviar">Enviar Mensagem</button>
+                    </form>
+                </section>
+    </div>
+    <footer class="rodape">Desenvolvido por Gean Antunes 2024</footer>
+    <script src="./assets/main.js"></script>
+</body>
+</html>
